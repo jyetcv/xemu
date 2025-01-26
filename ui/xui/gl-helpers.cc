@@ -35,13 +35,9 @@
 #include "ui/shader/xemu-logo-frag.h"
 #include "../../hw/xbox/xblc.h"
 
-<<<<<<< HEAD
-Fbo *controller_fbo, *xmu_fbo, *logo_fbo;
-GLuint g_controller_duke_tex, g_controller_s_tex, g_logo_tex, g_icon_tex, g_xmu_tex;
-=======
 Fbo *controller_fbo, *xmu_fbo, *xblc_fbo, *logo_fbo;
-GLuint g_controller_tex, g_logo_tex, g_icon_tex, g_xmu_tex, g_xblc_tex;
->>>>>>> 918634ba00 (Added UI for attaching XBLC to expansion port)
+GLuint g_controller_duke_tex, g_controller_s_tex, 
+       g_logo_tex, g_icon_tex, g_xmu_tex, g_xblc_tex;
 
 enum class ShaderType {
     Blit,
